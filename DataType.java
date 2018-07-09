@@ -1,8 +1,8 @@
 //data type in java
 
 public class DataType{
-
 	public static void main(String[] args){
+		final double PI = 3.14;
 		byte a=127;
 		//contain 8 bit
 		short b=32000;
@@ -22,5 +22,6 @@ public class DataType{
 		System.out.println("long = " + d);
 		System.out.println("float = " + e);
 		System.out.println("double = " + f);
+		System.out.println("Constant = "+ PI);
 	}
 }
